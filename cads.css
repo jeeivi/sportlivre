@@ -1,0 +1,77 @@
+    html, body {
+        height: 100%;            /* precisa ocupar a tela inteira */
+        margin: 0;
+    }
+
+    html, body{
+        display: flex;          
+        justify-content: center; 
+        align-items: center;    
+        background: green;
+    }
+
+    .container{
+        width: 500px;
+        background: white;
+        padding: 20px;
+        
+        
+    }
+    
+    h1{
+        position: relative;
+        top: 1%;
+        margin-bottom: 5%;
+        font-family: cursive;
+    }
+
+
+    input{
+        color: black;
+        background-color: rgb(218, 216, 216) ;
+        padding-left: 15px;
+        border-radius: 10px;
+            
+        top: 50%;
+        margin-left: 20%;
+        margin-bottom: 10px;
+        width: 50%;
+        height: 50px;
+        font-size: 100%;
+        font-weight: bold;
+    }
+    a{
+        text-decoration: none;
+        padding-bottom: 10%;
+    }
+
+    .cancelar {
+        background-color: #FF0000; 
+        color: white; 
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        position: relative;
+        left: 20%;
+    }
+    .cancelar a{
+        color: black;
+        font-weight: bold;
+    }
+    .confirmar input{
+        display: flex;
+        position: relative;
+        left: 80%;
+        padding-right: 0 ;
+        background-color: green;
+        padding-left:0;
+        width: 120px;
+        height: 40px;
+
+    }
+    
